@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base href="https://card.coinbase.com" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Coinbase Card </title>
+  
+    <meta name="description" content="Spend your crypto instantly with Coinbase Card." />
+    <meta property="og:title" content="Coinbase Card" />
+    <meta property="og:description" content="Spend your crypto instantly with Coinbase Card." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://coinbase.com/card" />
+  
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@coinbase" />
+    <meta name="twitter:title" content="Coinbase Card" />
+    <meta name="twitter:description" content="Spend your crypto instantly with Coinbase Card." />
+  
+    
+    <meta property="og:image" content=https://card.coinbase.com/assets/images/og.png />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="900" />
+    <meta name="twitter:image" content=https://card.coinbase.com/assets/images/og.png />
+    
+  
+    <link rel="canonical" href="https://coinbase.com/card" />
+    <link href="assets/fonts/Graphik-Regular-subset.woff" as="font" type="font/woff">
+    <link href="assets/fonts/Graphik-Medium-subset.woff" as="font" type="font/woff">
+    <link href="assets/fonts/Graphik-Bold-subset.woff" as="font" type="font/woff">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icon/favicon-16x16.png">
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/nav/index.css" />
+  
+    <script>
+      const enableAnimations = !matchMedia("(prefers-reduced-motion)").matches;
+  
+      document.documentElement.classList.add('has-js');
+    </script>
+  </head>
+  
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="check" viewBox="0 0 20 16" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 16L0 9l3-3 4 4L17 0l3 3L7 16z"/>
+      </symbol>
+    </svg>
+    
+    <span>
+  <span id="global-nav" class="global-nav"></span>
+  <script type="module" src="./assets/nav/index.js"></script>
+</span>
+
+    
+    <div class="page-outer">
+      <div class="page">
+        <div class="page__inner">
+          <section class="hero wrapper">
+  <div class="hero__shapes">
+    <div class="shape blueyball rellax" data-rellax-speed="-2"></div>
+    <!-- /.shape rellax blueyball -->
+    <div class="shape green-hole rellax" data-rellax-speed="-2"></div>
+    <!-- /.shape rellax green-hole -->
+  </div>
+  <!-- /.hero__shapes -->
+
+  <div class="hero__body animate animate-in" data-duration="1200" data-delay="300" data-aos="fade-in" data-aos-duration="1200" data-aos-delay="300">
+    <h1>Coinbase Card<br/> <span class="font-medium">Spend crypto anywhere</span></h1>
+    <p>Download the app to get started.</p>
+
+    <div class="app-store-links -header">
+    <a href="https://itunes.apple.com/app/id1457614457" class="app-store-links__link" target="_blank">
+        <img src="assets/images/app/app-link-apple.svg" alt="" class="app-store-links__image">
+    </a> <!-- /.app-store-links__link -->
+    <a href="https://play.google.com/store/apps/details?id=com.coinbase.coinbasecard" class="app-store-links__link" target="_blank">
+        <img src="assets/images/app/google-play-badge@2x.png" alt="" class="app-store-links__image">
+    </a> <!-- /.app-store-links__link -->
+</div>
+
+  </div>
+  <!-- /.hero__body -->
+</section>
+
+<section class="card-mockup">
+    <div class="animate animate-down" data-duration="700" data-delay="1000" data-aos="fade-down" data-aos-delay="100" data-aos-duration="700">
+        <div class="card-mockup__image-wrapper">
+            <img class="card-mockup__image -front" src="assets/images/card-mockup@2x.png" />
+            <img class="card-mockup__image -mirror" src="assets/images/card-mirror@2x.png" />
+        </div>
+        <!-- /.card-mockup__image-wrapper -->
+    </div>
+
+    <svg data-aos="fade-up" class="shape diamond" width="158" height="158" viewBox="0 0 158 158" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M80.6302 157.061C79.8492 157.843 78.5826 157.843 77.8014 157.062L1.41378 80.6691C0.632907 79.8882 0.632767 78.6222 1.41347 77.8411L77.8017 1.41496C78.5827 0.633558 79.8493 0.633426 80.6305 1.41465L157.018 77.8071C157.799 78.588 157.799 79.8541 157.018 80.6352L80.6302 157.061Z" fill="#FFD25F"/></svg>
+
+    <div class="shape bigball rellax" data-rellax-wrapper=".card-mockup" data-rellax-speed="-4" data-rellax-boundary=".card-mockup"></div>
+    <!-- /.shape bigball rellax -->
+</section>
+
+<section class="selling-points-wrapper">
+  <header class="section-heading wrapper animate animate-in" data-duration="1200" data-delay="150" data-aos="fade-in" data-aos-duration="1200" data-aos-delay="150">
+    <h2 class="section-heading__title">Introducing Coinbase Card</h2>
+    <p class="xs-ignore-br section-heading__text" style="--maxWidth: 29.75remrem;">A Visa debit card, funded by your Coinbase balance.<br class="break" /> The easiest, quickest way to spend your crypto worldwide.</p>
+  </header>
+
+  <div class="wrapper">
+    <div class="selling-points">
+      
+      <div class="selling-point animate animate-in" data-duration="300" data-delay="100" data-aos="fade-in" data-aos-delay="" data-aos-duration="">
+        <div class="selling-point__graphic">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360"><style></style><g id="Layer_1"><circle cx="208" cy="100" r="60" fill="#ffd066"/><path fill="#dff3fe" d="M80 294.23h200v5.54H80z"/><path d="M156.77 299.81c-4.27 0-8.28-1.66-11.29-4.68l-58.26-58.26c-6.23-6.23-6.23-16.36 0-22.59l110.07-110.07c3.02-3.02 7.03-4.68 11.3-4.68 4.27 0 8.28 1.66 11.29 4.68l58.26 58.26c3.02 3.02 4.68 7.03 4.68 11.29 0 4.27-1.66 8.28-4.68 11.29L168.07 295.13a15.869 15.869 0 0 1-11.3 4.68zm51.81-192.26c-2.04 0-4.08.78-5.64 2.33L92.88 219.94c-3.11 3.11-3.11 8.17 0 11.28l58.26 58.26a7.92 7.92 0 0 0 5.64 2.34c2.13 0 4.13-.83 5.64-2.34l110.07-110.07 2.83 2.83-2.83-2.83c3.11-3.11 3.11-8.17 0-11.28l-58.26-58.26a7.995 7.995 0 0 0-5.65-2.32z" fill="#1652f0"/></g></svg>
+        </div>
+        <!-- /.selling-point__graphic -->
+        <h3 class="selling-point__title h2">Spend your crypto<br/> instantly</h3>
+        <p class="selling-point__copy">A Visa debit card that makes crypto as spendable as the money in your bank, powered by your Coinbase account balance.</p>
+      </div>
+      
+      <div class="selling-point animate animate-in" data-duration="600" data-delay="200" data-aos="fade-in" data-aos-delay="" data-aos-duration="">
+        <div class="selling-point__graphic">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360"><style>.st5{fill:#2047f3}</style><g id="Layer_1"><path fill-rule="evenodd" clip-rule="evenodd" fill="#3acc8a" d="M140 40h180v100H140z"/><path fill="#dff3fe" d="M60 294h160v6H60z"/><path class="st5" d="M140 108c50.73 0 92 41.27 92 92s-41.27 92-92 92-92-41.27-92-92 41.27-92 92-92m0-8c-55.23 0-100 44.77-100 100s44.77 100 100 100 100-44.77 100-100-44.77-100-100-100z"/><path class="st5" d="M140 108c6.98 0 14.78 9.07 20.86 24.26C168.04 150.23 172 174.28 172 200s-3.96 49.77-11.14 67.74C154.78 282.93 146.98 292 140 292s-14.78-9.07-30.86-24.26C111.96 249.77 108 225.72 108 200s3.96-49.77 11.14-67.74C125.22 117.07 133.02 108 140 108m0-8c-22.09 0-30 44.77-30 100s17.91 100 40 100 40-44.77 40-100-17.91-100-30-100z"/><path class="st5" d="M40 196h200v8H40z"/></g></svg>
+        </div>
+        <!-- /.selling-point__graphic -->
+        <h3 class="selling-point__title h2">Use your card<br/> worldwide</h3>
+        <p class="selling-point__copy">Ready to use in millions of locations around the world. Pay with contactless, PIN or withdraw cash from any ATM.</p>
+      </div>
+      
+      <div class="selling-point animate animate-in" data-duration="900" data-delay="300" data-aos="fade-in" data-aos-delay="" data-aos-duration="">
+        <div class="selling-point__graphic">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360"><style>.st5{fill:#2047f3}</style><g id="Layer_1"><path fill="#dff3fe" d="M60 294h240v6H60z"/><circle cx="180" cy="100" r="60" fill="#56b4fc"/><path class="st5" d="M272 108v184h-24v-30H112v30H88V108h184m8-8H80v200h40v-30h120v30h40V100z"/><path class="st5" d="M180 204c-10.48 0-19-8.52-19-19s8.52-19 19-19 19 8.52 19 19-8.52 19-19 19zm0-30c-6.07 0-11 4.93-11 11s4.93 11 11 11 11-4.93 11-11-4.93-11-11-11z"/><path class="st5" d="M176 140h8v30h-8zM135 181h30v8h-30zM176 200h8v30h-8zM195 181h30v8h-30z"/></g></svg>
+        </div>
+        <!-- /.selling-point__graphic -->
+        <h3 class="selling-point__title h2">Keep your crypto<br/>on the safe side</h3>
+        <p class="selling-point__copy">World-class security as standard. Two-step verification, instant card freeze and plenty more to keep your card secure.</p>
+      </div>
+      
+      <div class="selling-point animate animate-in" data-duration="1200" data-delay="400" data-aos="fade-in" data-aos-delay="" data-aos-duration="">
+        <div class="selling-point__graphic">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360"><style>.st5{fill:#2047f3}</style><g id="Layer_1"><path fill="#dff3fe" d="M100 294h200v6H100z"/><circle cx="120" cy="160" r="60" fill="#ffd066"/><path class="st5" d="M268 48c2.21 0 4 1.79 4 4v236c0 2.21-1.79 4-4 4H132c-2.21 0-4-1.79-4-4V52c0-2.21 1.79-4 4-4h136m0-8H132c-6.63 0-12 5.37-12 12v236c0 6.63 5.37 12 12 12h136c6.63 0 12-5.37 12-12V52c0-6.63-5.37-12-12-12z"/><path class="st5" d="M185 66h30v8h-30zM120 256h160v8H120z"/></g></svg>
+        </div>
+        <!-- /.selling-point__graphic -->
+        <h3 class="selling-point__title h2">Select your crypto<br/> wallet</h3>
+        <p class="selling-point__copy">Choose which crypto to pay with through the app. It takes just a few seconds to switch between bitcoin, ethereum and more.</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="app" id="app">
+
+  <header class="app__section-heading section-heading wrapper animate animate-in" data-duration="1500" data-aos="fade-in" data-aos-duration="1500">
+    <h2 class="app__section-heading-text section-heading__title">Track every <span id="js-currencyTypewriter">pound</span> bitcoin</h2>
+    <p class="section-heading__text wide">Spending summaries, transaction receipts, and instant notifications.<br/> The Coinbase Card app makes it easy to manage your spend on the go.</p>
+  </header>
+
+  <div class="app__shapes">
+    <img src="assets/images/app/app-preview@2x.png" alt="" class="app__image animate animate-in" data-duration="1500" data-aos="fade-in" data-aos-duration="1500" />
+
+    <div class="shape matchstick rellax" data-rellax-speed="-2" data-rellax-percentage="0.5">
+      <svg width="283" height="227" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M223.003 44.47A30.985 30.985 0 0 1 220 31.119C220 13.928 233.915 0 251.104 0c17.175 0 31.09 13.929 31.09 31.118 0 17.175-13.915 31.103-31.09 31.103a30.974 30.974 0 0 1-19.614-6.96L11.064 225.458a6.865 6.865 0 0 1-4.203 1.441 6.82 6.82 0 0 1-5.425-2.676c-2.321-2.991-1.772-7.314 1.236-9.619L223.003 44.471z" fill="#2047F3"/></svg>
+    </div>
+    <!-- /.shape matchstick -->
+
+    <svg class="shape diamond" width="159" height="159" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M79.216 158.476L0 79.256 79.216 0l79.216 79.221-79.216 79.255z" fill="#FFD25F"/></svg>
+  </div>
+  <!-- /.app__shapes -->
+</section>
+
+
+    
+          <div id="signup" class="signup animate animate-in" data-duration="1000" data-aos="fade-in" data-aos-duration="2500">
+  <div class="signup-features">
+    <div class="signup-features__features">
+      <ul class="features -green">
+
+  <li class="features__item">
+    <svg class="features__icon"><use xlink:href="#check"></use></svg>
+    The easiest way to spend crypto worldwide
+  </li>
+
+  <li class="features__item">
+    <svg class="features__icon"><use xlink:href="#check"></use></svg>
+    Instant transactions and payments
+  </li>
+
+  <li class="features__item">
+    <svg class="features__icon"><use xlink:href="#check"></use></svg>
+    Track your spend through the app
+  </li>
+
+  <li class="features__item">
+    <svg class="features__icon"><use xlink:href="#check"></use></svg>
+    Easily choose which crypto you spend
+  </li>
+
+  <li class="features__item">
+    <svg class="features__icon"><use xlink:href="#check"></use></svg>
+    World-class security to keep your crypto safe
+  </li>
+
+</ul>
+    </div>
+    <div class="signup-features-form">
+      <h3 class="signup-features-form__heading -white">Get the app today</h3>
+      <p class="signup-features-form__copy">Download the Coinbase Card app to get started.</p>
+      <div class="app-store-links -footer">
+    <a href="https://itunes.apple.com/app/id1457614457" class="app-store-links__link" target="_blank">
+        <img src="assets/images/app/app-link-apple.svg" alt="" class="app-store-links__image">
+    </a> <!-- /.app-store-links__link -->
+    <a href="https://play.google.com/store/apps/details?id=com.coinbase.coinbasecard" class="app-store-links__link" target="_blank">
+        <img src="assets/images/app/google-play-badge@2x.png" alt="" class="app-store-links__image">
+    </a> <!-- /.app-store-links__link -->
+</div>
+
+    </div>
+  </div>
+</div>
+
+    
+          <div class="fineprint">
+            <p class="fineprint__copy">This card is issued by Paysafe Financial Services Limited. Paysafe Financial Services Limited is authorised<br/> by the Financial Conduct Authority under the Electronic Money Regulations 2011 FRN: 900015 for the issuing of the electronic money and payment instruments.</p>
+            <!-- /.fineprint__copy -->
+          </div>
+          <!-- /.fineprint -->
+        </div>
+      </div>
+    </div>
+    <!-- /.page-outer -->
+    
+    <footer class="footer small">
+      <div class="footer-inner wrapper">
+        <div class="footer__trademark">
+          <svg width="102" height="18" viewBox="0 0 102 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0)" fill="#FFFFFF" fill-rule="nonzero">
+              <path d="M20.3844795,5.0252625 C16.7153837,5.0252625 13.8485088,7.80406875 13.8485088,11.52405 C13.8485088,15.2440594 16.6429338,17.9990719 20.3844795,17.9990719 C24.1259971,17.9990719 26.9690227,15.1965 26.9690227,11.5002844 C26.9690227,7.82783437 24.1745977,5.0252625 20.3844795,5.0252625 Z M20.4092309,15.3181687 C18.3197974,15.3181687 16.7887076,13.6991812 16.7887076,11.5249781 C16.7887076,9.32608125 18.295046,7.70802187 20.3844795,7.70802187 C22.4986362,7.70802187 24.0288239,9.350775 24.0288239,11.5249781 C24.0288239,13.6991812 22.4986362,15.3181687 20.4092309,15.3181687 Z M27.7703415,7.85252812 L29.5928379,7.85252812 L29.5928379,17.7585187 L32.5083134,17.7585187 L32.5083134,5.26674375 L27.7703415,5.26674375 L27.7703415,7.85252812 Z M6.51121931,7.70709375 C8.04230912,7.70709375 9.2570718,8.649225 9.71824241,10.0504969 L12.8042431,10.0504969 C12.2449973,7.05493125 9.76684307,5.0252625 6.53597069,5.0252625 C2.86687489,5.0252625 0,7.80406875 0,11.5249781 C0,15.2458875 2.79445314,18 6.53597069,18 C9.69439313,18 12.221148,15.9703312 12.7803938,12.9500437 L9.71824241,12.9500437 C9.28092108,14.3513437 8.06613021,15.3181687 6.53506859,15.3181687 C4.42088368,15.3181687 2.93929663,13.6991812 2.93929663,11.5249781 C2.94022692,9.32608125 4.39796469,7.70709375 6.51121931,7.70709375 Z M83.1660401,10.3166719 L81.0280622,10.0029375 C80.0078431,9.85843125 79.2788333,9.52000312 79.2788333,8.72240625 C79.2788333,7.85252812 80.2268844,7.41805312 81.5140688,7.41805312 C82.9233187,7.41805312 83.8226,8.02175625 84.0168334,9.01234687 L86.8353332,9.01234687 C86.5190343,6.49971562 84.5752899,5.0261625 81.5873645,5.0261625 C78.5013356,5.0261625 76.4606154,6.59669062 76.4606154,8.81935312 C76.4606154,10.9450687 77.7971335,12.1780687 80.4935678,12.5640563 L82.6315456,12.8777906 C83.6768544,13.0222969 84.2598367,13.4339063 84.2598367,14.2068094 C84.2598367,15.1974281 83.2396176,15.6081094 81.8303677,15.6081094 C80.1048189,15.6081094 79.1330877,14.9074594 78.9873421,13.8446156 L76.1203545,13.8446156 C76.3881655,16.2849656 78.3071021,18 81.80556,18 C84.9888466,18 87.1020166,16.5502406 87.1020166,14.061375 C87.1020166,11.8387125 85.5718289,10.6788938 83.1660401,10.3166719 Z M31.0505757,0.120737812 C29.9815868,0.120737812 29.1795632,0.89364375 29.1795632,1.95650156 C29.1795632,3.01935937 29.9807411,3.7922625 31.0505757,3.7922625 C32.1195646,3.7922625 32.9218701,3.01935937 32.9218701,1.95650156 C32.9218701,0.89364375 32.1195646,0.120737812 31.0505757,0.120737812 Z M73.8366311,9.54376875 C73.8366311,6.83814375 72.1846598,5.0261625 68.68592,5.0261625 C65.3816956,5.0261625 63.535209,6.6936375 63.1704222,9.25472812 L66.0619357,9.25472812 C66.2076813,8.2641375 66.985179,7.44274687 68.6374321,7.44274687 C70.1199777,7.44274687 70.8487056,8.09490937 70.8487056,8.89253437 C70.8487056,9.9316125 69.5119057,10.1968594 67.8599344,10.3660875 C65.6246989,10.6075406 62.8549689,11.3804437 62.8549689,14.2799906 C62.8549689,16.527375 64.531748,17.9762062 67.2045021,17.9762062 C69.2937101,17.9762062 70.6057023,17.1063562 71.2622622,15.72885 C71.3595199,16.9609219 72.2827632,17.7585187 73.5707934,17.7585187 L75.2715344,17.7585187 L75.2715344,15.1736344 L73.8374768,15.1736344 L73.8374768,9.54376875 L73.8366311,9.54376875 Z M70.9696434,12.6847969 C70.9696434,14.3522437 69.5119057,15.5843156 67.737869,15.5843156 C66.6443542,15.5843156 65.7211109,15.1251469 65.7211109,14.15925 C65.7211109,12.9271781 67.2033745,12.58875 68.5641365,12.4442437 C69.8761287,12.3235031 70.6048566,12.0335344 70.9696434,11.4774187 L70.9696434,12.6847969 Z M55.4929844,5.0252625 C53.8646933,5.0252625 52.5042132,5.70211875 51.532482,6.83724375 L51.532482,0 L48.6170065,0 L48.6170065,17.7585188 L51.4837122,17.7585188 L51.4837122,16.1157656 C52.4554434,17.29935 53.8410132,18 55.4929844,18 C58.9914423,18 61.6402345,15.2458875 61.6402345,11.5249781 C61.6402345,7.80406875 58.9429544,5.0252625 55.4929844,5.0252625 Z M55.0557477,15.3181687 C52.9662578,15.3181687 51.4352243,13.6991812 51.4352243,11.5249781 C51.4352243,9.350775 52.9902198,7.70802187 55.0794278,7.70802187 C57.1937255,7.70802187 58.6751434,9.32700937 58.6751434,11.5249781 C58.6751434,13.6991812 57.1449557,15.3181687 55.0557477,15.3181687 Z M41.6434889,5.0252625 C39.7485144,5.0252625 38.5089722,5.79816562 37.7802442,6.88570312 L37.7802442,5.26674375 L34.8884488,5.26674375 L34.8884488,17.7576187 L37.8039244,17.7576187 L37.8039244,10.9688625 C37.8039244,9.05990625 39.0186589,7.70709375 40.8166576,7.70709375 C42.4934366,7.70709375 43.5376178,8.89070625 43.5376178,10.6066406 L43.5376178,17.7585187 L46.4530939,17.7585187 L46.4530939,10.3898531 C46.4542209,7.247925 44.8267755,5.0252625 41.6434889,5.0252625 Z M101,11.1142969 C101,7.53879375 98.3760156,5.0261625 94.85275,5.0261625 C91.1112888,5.0261625 88.3655209,7.8287625 88.3655209,11.5249781 C88.3655209,15.4151156 91.3055223,18 94.9015198,18 C97.9387789,18 100.31976,16.2118125 100.926704,13.6753875 L97.8891634,13.6753875 C97.4519266,14.7867188 96.3829377,15.4151156 94.949162,15.4151156 C93.0778676,15.4151156 91.6686177,14.2552969 91.3531645,12.2256281 L100.999154,12.2256281 L100.999154,11.1142969 L101,11.1142969 Z M91.5237178,10.1474719 C91.9860442,8.40774375 93.2977545,7.5625875 94.8042621,7.5625875 C96.4562333,7.5625875 97.7197376,8.50469062 98.0112288,10.1474719 L91.5237178,10.1474719 Z"></path>
+            </g>
+          </svg>
+          <span>&copy; 2019<script>new Date().getFullYear() > 2019 && document.write("-" + new Date().getFullYear());</script> Coinbase</span>
+        </div>
+      </div>
+    </footer>
+    <script async src="build/index.js"></script>
+  </body>
+</html>
+

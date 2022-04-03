@@ -1,0 +1,36 @@
+tata=response.request().toString().split(" ")[0]+" "+response.body().toString().split("title")[1].substring(1,s.length()-2)+" ("+response.statusCode()+") "+" ["+s.length()+"]";
+response.body().toString().split("title")[1]
+/*public String get_title(String body)
+{
+    String s=body.split("title")[1];
+    return s.substring(1,s.length()-2);
+}*/
+//String s=response.body().toString();
+//String t=response.request().toString();
+//String url=t.split(" ")[0];
+//String title=get_title(s);
+//String tata=url+"  "+title+" ("+response.statusCode()+") "+" ["+s.length()+"]";
+//String path1="out//header//"+domain+".txt";
+//String path2="out//body//"+domain+".txt";
+
+HttpClientParams.setRedirecting(httpParams, true);
+
+
+
+DefaultHttpClient instance = new DefaultHttpClient();
+
+    HttpParams params = new BasicHttpParams();
+    params.setParameter(ClientPNames.HANDLE_REDIRECTS, false);
+    // HttpClientParams.setRedirecting(params, false); // alternative
+
+    HttpGet httpGet = new HttpGet("http://t.co/I5YYd9tddw");
+    httpGet.setParams(params);
+    CloseableHttpResponse response = instance.execute(httpGet);
+
+    assertThat(response.getStatusLine().getStatusCode(), equalTo(301));
+
+
+
+
+  dfvadfvdfvdfv  "https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js"sdfcdsfdfdvfdv"https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js"fdvfvdfvdfv"https://www.paypalobjects.com/webcaptcha/ngrlCaptcha.min.js"vhgvygvygkygkybgfbgfb
+"https://www.paypalobjects.com/webcaptcha/ngrlCaphellotcha.min.js"sjdfbcdhvbzdjvbzdfuvd                 irf"https://www.paypalobjects.com/nananananananananaan/ngrlCaptcha.min.js"
